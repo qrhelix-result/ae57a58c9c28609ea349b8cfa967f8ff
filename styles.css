@@ -1,0 +1,145 @@
+body {
+background-color: #eff0f4;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 768px;
+  padding-bottom: 25px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 30px;
+    max-width: 686px;
+    width: 100%;
+}
+
+.lang_change {
+  grid-gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 42px;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.flag {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,.15));
+  height: 34px;
+  overflow: hidden;
+  width: 35px;
+}
+
+.main {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0,0,0,.05);
+  padding: 24px 41px 40px;
+}
+
+.check {
+  display: block;
+  margin: 0 auto 13px;
+}
+
+.txt1 {
+  color: #49b03f;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 24px;
+  max-width: 208px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.first_info {
+  border-top: 1px solid #dcddde;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.client {
+  color: #7a7e82;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.name {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 4px;
+}
+
+.second_info {
+  border-top: 1px solid #dcddde;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.dob {
+  color: #7a7e82;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.dob_lit {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 4px;
+}
+
+.download {
+  grid-gap: 8px;
+  align-items: center;
+  background: #49b03f;
+  border-radius: 5px;
+  box-shadow: 0 6px 14px rgba(93,197,100,.35);
+  color: #fff;
+  display: grid;
+  font-size: 14px;
+  font-weight: 400;
+  grid-template-columns: auto 24px;
+  line-height: 24px;
+  margin: 48px auto 28px;
+  max-width: -webkit-max-content;
+  max-width: max-content;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.bottom {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.link_helix {
+  color: #61c358;
+  display: block;
+  margin-top: 8px;
+}
+
